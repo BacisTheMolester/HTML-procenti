@@ -1,18 +1,30 @@
 body{
+    background-color: wheat;
     margin: 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main{
+    flex: 1;
 }
 .header-header {
+    background-color: white;
+    position: sticky;
+    left: 0px;
+    right: 0px;
+    top: 0px;
     unicode-bidi: isolate;
     align-self: auto;
-    position: relative;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 .header-img{
+    margin-left: 10px;
     align-self: auto;
     width: 50px;
 }
-
 nav{
     width:250px;
     justify-content: space-around;
@@ -38,4 +50,149 @@ nav button{
     height: 100%;
     object-fit: fill;
     display: block;
+}
+.welcome-main{
+    text-align: center;
+}
+.welcome-main h2{
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+.welcome-main button{
+    color: black;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+    font-size: 100px;
+    margin-top: 0px;
+    width: 60%;
+    height: 40vh;
+    border-radius: 20px;
+}
+.welcome-img{
+    background-image: url(https://mcdonalds.lv/wp-content/uploads/2024/01/bg.jpg);
+    background-size:cover;
+    background-position:center center;
+    word-wrap: break-word;
+}
+.our-specials h2{
+    margin-bottom: 5px;
+    font-size: 50px;
+    text-align: center;
+}
+.our-specials img{
+    display: inline-block;
+    max-height: 200px;
+    max-width: 500px;
+    border: solid black 5px;
+    border-radius: 10px;
+}
+.galerija-main{
+    margin-bottom: 10px;
+}
+.galerija-main h2{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.galerija-main img{
+    border: solid black 5px;
+    border-radius: 10px;
+    width: auto;
+    height: 200px;
+}
+.our-foot{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+.our-foot a{
+    margin-bottom: 5px;
+}
+.our-foot h2{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+.specials-flex{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.specials-flex button{
+    color: black;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+    font-size: 50px;
+    margin-top: 0px;
+    width: auto;
+    height: 200px;
+    border-radius: 20px;
+}
+.vesture-img {
+    background-image: url(https://static-www.adweek.com/wp-content/uploads/2019/08/mcdonalds-40bold-2019.png?w=890);
+    background-size:cover;
+    background-position:center center;
+    word-wrap: break-word;
+}
+.musu-stasts{
+    background-image: url(https://thecsrjournal.in/wp-content/uploads/2025/07/McDonalds-Vs-McPatel.jpg);
+    background-size:cover;
+    background-position:center center;
+    word-wrap: break-word;
+}
+.misija-stats{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMQYfdKAlTrXKyiyXyrHgedNnL3bZ2qc0W5Q&s);
+    background-size:cover;
+    background-position:center center;
+    word-wrap: break-word;
+}
+.footer-img{
+    width: 100%;
+    display: inline-block;
+}
+.footer-img .specials-flex{
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.p-footer{
+    margin-top: 20px;
+}
+
+.p-footer p{
+    margin: 0;
+    text-align: center;
+    font-size: 14px;
+}
+.footer-div h2{
+    font-size: 25px;
+}
+.footer-div {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 20px;
+    max-width: 800px;      
+    width: 90%;          
+    margin-left: auto;  
+    margin-right: auto;    
+}
+.footer-div {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 20px;
+    max-width: 800px;     
+    width: 90%;           
+    margin-left: auto;     
+    margin-right: auto;   
+}
+.footer-div button {
+    font-size: 16px;   /* bigger buttons */
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+.footer-div p{
+    font-size: 16px;   
 }
